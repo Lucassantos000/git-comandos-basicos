@@ -1,0 +1,26 @@
+{
+  "name": "git-comandos-basicos",
+  "version": "1.0.0",
+  "description": "aplicação que sobe um servidor para exibir a documentação - sobre git , para consumo interno -criada em Marckdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucassantos000/git-comandos-basicos"
+  },
+  "keywords": [
+    "git",
+    "nodejs",
+    "markdown"
+  ],
+  "author": "Lucas dos Santos Marques",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "markdown-preview": "^1.0.1",
+    "marked": "^14.1.2"
+  }
+}
